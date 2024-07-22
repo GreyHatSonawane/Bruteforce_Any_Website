@@ -33,7 +33,7 @@ def test_login(username, password):
             lambda d: d.current_url != U
         )
 
-        if 'Dashboard' in driver.current_url:
+        if f in driver.current_url:
             print(f'Successful login: {username}:{password}')
             return True
         else:
