@@ -4,13 +4,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-U = input('Enter the Target Website Url')
+U = input('Enter the Target Website Url:')
 
 a = input('Enter the xpath of username field:')
 b = input('Enter the xpath of password field:')
 c = input('Enter the xpath of login/submit button field:')
 d = input('Enter path of username file:')
 e = input('Enter path of the password file:')
+f = input('Enter a word which comes in login is successful:')
 
 driver = webdriver.Chrome()
 
