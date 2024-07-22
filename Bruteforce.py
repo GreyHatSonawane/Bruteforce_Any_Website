@@ -11,7 +11,7 @@ b = input('Enter the xpath of password field:')
 c = input('Enter the xpath of login/submit button field:')
 d = input('Enter path of username file:')
 e = input('Enter path of the password file:')
-f = input('Enter a word which comes in login is successful:')
+f = input('Enter a word which comes in login is successful Url:')
 
 driver = webdriver.Chrome()
 
