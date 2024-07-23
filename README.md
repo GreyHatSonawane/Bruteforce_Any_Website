@@ -22,7 +22,6 @@
 
 1. **Run the following Lines One by One:**
 
-    ```sh
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install -f  # Install dependencies
@@ -33,10 +32,9 @@ wget https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedr
 unzip chromedriver_linux64.zip
 sudo mv chromedriver /usr/local/bin/
 
-    ```
 
     
-### Installation for windows
+### Installation 
 
 Make sure you installed the web-browser with its corresponding webdriver .
 
