@@ -17,20 +17,19 @@
 - `pip` (Python package installer)
 - Google Chrome browser (or another supported browser with corresponding WebDriver)
 
-### Webdriver Installation for Linux_based_systems
+# Webdriver Installation for Linux_based_systems
 
+**Run the following Lines One by One:**
 
-1. **Run the following Lines One by One:**
-
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-sudo apt-get install -f  # Install dependencies
+###wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+###sudo dpkg -i google-chrome-stable_current_amd64.deb
+###sudo apt-get install -f  # Install dependencies
 
 # Install ChromeDriver
-CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`
-wget https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip
-unzip chromedriver_linux64.zip
-sudo mv chromedriver /usr/local/bin/
+###CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`
+###wget https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip
+###unzip chromedriver_linux64.zip
+###sudo mv chromedriver /usr/local/bin/
 
 
     
