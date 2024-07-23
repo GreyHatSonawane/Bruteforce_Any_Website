@@ -19,6 +19,10 @@
 
 ### Installation
 
+Make sure you installed the web-browser with its corresponding webdriver .
+
+If you did not know how to do that search it on youtube .
+
 1. **Clone the repository:**
 
     ```sh
@@ -28,7 +32,7 @@
 2. **Navigate to the project directory:**
 
     ```sh
-    cd Bruteforce
+    cd Bruteforce_Any_Website
     ```
 
 3. **Install the required dependencies:**
