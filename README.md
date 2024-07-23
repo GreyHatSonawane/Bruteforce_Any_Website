@@ -17,27 +17,7 @@
 - `pip` (Python package installer)
 - Google Chrome browser (or another supported browser with corresponding WebDriver)
 
-# Webdriver Installation for Linux_based_systems
-
-**Run the following Lines One by One:**
-
-###wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-###sudo dpkg -i google-chrome-stable_current_amd64.deb
-###sudo apt-get install -f  # Install dependencies
-
-# Install ChromeDriver
-###CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`
-###wget https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip
-###unzip chromedriver_linux64.zip
-###sudo mv chromedriver /usr/local/bin/
-
-
-    
-### Installation 
-
-Make sure you installed the web-browser with its corresponding webdriver .
-
-If you did not know how to do that search it on youtube .
+### Installation
 
 1. **Clone the repository:**
 
@@ -48,13 +28,37 @@ If you did not know how to do that search it on youtube .
 2. **Navigate to the project directory:**
 
     ```sh
-    cd Bruteforce_Any_Website
+    cd Bruteforce
     ```
 
 3. **Install the required dependencies:**
 
     ```sh
     pip install -r requirements.txt
+    ```
+
+### Installing ChromeDriver for Linux-based Systems
+
+1. **Download ChromeDriver:**
+
+    Visit the [ChromeDriver download page](https://sites.google.com/chromium.org/driver/downloads) and download the version that matches your installed Chrome version.
+
+2. **Extract the downloaded file:**
+
+    ```sh
+    unzip chromedriver_linux64.zip
+    ```
+
+3. **Move the ChromeDriver to a directory included in your system's PATH:**
+
+    ```sh
+    sudo mv chromedriver /usr/local/bin/
+    ```
+
+4. **Verify the installation:**
+
+    ```sh
+    chromedriver --version
     ```
 
 4. **(Optional) Configure the script** with the target website URL, field XPaths, and paths to username and password files.
