@@ -83,6 +83,8 @@
     Enter a word which comes in successful login Url: dashboard
     ```
 
+    edit the username and password file and put your passwords to brute force or use Rockyou.txt 
+
    *Follow the instructions after running the code.*
 
 ## ⚠️ Disclaimer
